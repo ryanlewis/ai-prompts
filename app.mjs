@@ -5,6 +5,9 @@ export default defineConfig({
   title: "AI Prompts by @ryanlewis",
   description: "A collection of AI prompts and documentation",
   lang: "en",
+  theme: {
+    color: "red",
+  },
   editThisNote: {
     url: "https://github.com/ryanlewis/ai-prompts/edit/main/{{file}}",
   },
