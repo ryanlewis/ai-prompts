@@ -45,6 +45,7 @@ Provide 2-3 examples of input/output pairs to demonstrate the pattern you want.
 - **Temperature control**: Request more creative (higher temperature) or focused (lower temperature) responses
 - **System prompts**: Use system-level instructions for consistent behavior across conversations
 - **Prompt chaining**: Use the output of one prompt as input for the next
+- **Direct the architecture**: When asking LLMs to complete refactors, define the desired files, classes, and interfaces upfront rather than leaving it to the AI to decide. You're better off completing small, focused refactors instead of large re-architectures
 
 ## Testing and Validation
 

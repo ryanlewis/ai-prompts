@@ -119,16 +119,6 @@ date: 2024-01-01
 - Mermaid diagram support
 - Math equations with KaTeX
 
-## Original Content
-
-### Some notes on success
-
-#### Direct the architecture yourself
-
-Asking LLMs to complete a refactor without direction on how you want things to shape up is asking for trouble. Define (either manually or with LLM help) the files, classes and even the interface/functions you want to end up with. 
-
-You are better completing small and focused refactors instead of large re-architecture of an application.
-
 ## Deployment
 
 The generated site can be deployed to:
