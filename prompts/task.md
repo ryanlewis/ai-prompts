@@ -11,8 +11,6 @@ This prompt provides comprehensive instructions for improving test coverage in P
 
 ---
 
-<div class="prompt-content">
-
 ## Task
 
 Improve the coverage of the following files:
@@ -55,5 +53,3 @@ You MUST finalise all Python work with `make check` and `uv run pre-commit` to e
 - Add Python packages to `[CONFIG_FILE]` workspace members
 - Tests in `[TEST_DIR]/test_*.py`
 - Never add watermarks or signatures to commit messages
-
-</div>

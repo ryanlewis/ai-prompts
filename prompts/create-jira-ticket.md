@@ -11,8 +11,6 @@ This prompt helps you generate well-structured Jira tickets with consistent form
 
 ---
 
-<div class="prompt-content">
-
 Create a Jira ticket for the [PROJECT_NAME] project with the following information:
 
 **Problem/Issue**: 
@@ -61,5 +59,4 @@ This conflicts with Python standards and our ruff formatter configuration
 
 **Expected Outcome**: 
 [FILENAME].md should recommend triple double quotes for docstrings to align with PEP 257
-
-</div>"
+"

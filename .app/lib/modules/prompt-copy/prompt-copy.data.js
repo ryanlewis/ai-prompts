@@ -8,10 +8,15 @@ export default function promptCopyData(Alpine) {
     },
     
     injectCopyButton() {
-      // Find all prompt-content elements
-      const promptElements = document.querySelectorAll('.prompt-content');
+      // Find all horizontal rules (hr elements) that mark the start of prompt content
+      const hrElements = document.querySelectorAll('article hr');
       
-      promptElements.forEach((promptElement, index) => {
+      hrElements.forEach((hrElement, index) => {
+        // Skip if this hr already has a copy button
+        if (hrElement.nextElementSibling && hrElement.nextElementSibling.classList.contains('prompt-copy-btn')) {
+          return;
+        }
+        
         // Create copy button
         const button = document.createElement('button');
         button.className = 'prompt-copy-btn toggle-btn';
@@ -26,18 +31,29 @@ export default function promptCopyData(Alpine) {
         
         // Add click handler
         button.addEventListener('click', (e) => {
-          this.copyPromptContent(promptElement, button);
+          this.copyPromptContent(hrElement, button);
         });
         
-        // Insert button before the prompt content
-        promptElement.parentNode.insertBefore(button, promptElement);
+        // Insert button after the horizontal rule
+        hrElement.parentNode.insertBefore(button, hrElement.nextSibling);
       });
     },
     
-    async copyPromptContent(promptElement, button) {
+    async copyPromptContent(hrElement, button) {
       try {
-        // Get the text content of the prompt, preserving formatting
-        const textContent = promptElement.innerText || promptElement.textContent;
+        // Collect all content after the hr element until end of article or next hr
+        let contentElements = [];
+        let currentElement = button.nextElementSibling; // Start after the button
+        
+        while (currentElement && currentElement.tagName !== 'HR') {
+          contentElements.push(currentElement);
+          currentElement = currentElement.nextElementSibling;
+        }
+        
+        // Extract text from all collected elements
+        const textContent = contentElements
+          .map(el => el.innerText || el.textContent)
+          .join('\n\n');
         
         // Copy to clipboard using modern Clipboard API
         await navigator.clipboard.writeText(textContent);
@@ -47,15 +63,29 @@ export default function promptCopyData(Alpine) {
         
       } catch (err) {
         // Fallback for older browsers
-        this.fallbackCopyToClipboard(promptElement, button);
+        this.fallbackCopyToClipboard(hrElement, button);
       }
     },
     
-    fallbackCopyToClipboard(promptElement, button) {
+    fallbackCopyToClipboard(hrElement, button) {
       try {
+        // Collect all content after the hr element until end of article or next hr
+        let contentElements = [];
+        let currentElement = button.nextElementSibling; // Start after the button
+        
+        while (currentElement && currentElement.tagName !== 'HR') {
+          contentElements.push(currentElement);
+          currentElement = currentElement.nextElementSibling;
+        }
+        
+        // Extract text from all collected elements
+        const textContent = contentElements
+          .map(el => el.innerText || el.textContent)
+          .join('\n\n');
+        
         // Create a temporary textarea
         const textarea = document.createElement('textarea');
-        textarea.value = promptElement.innerText || promptElement.textContent;
+        textarea.value = textContent;
         document.body.appendChild(textarea);
         
         // Select and copy
