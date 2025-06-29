@@ -152,7 +152,7 @@ See `.plans/00-SETUP.md` for detailed deployment instructions.
 2. **Missing Notes**: Check file paths and wikilink syntax
 3. **Search Not Working**: Only available in production build
 
-For detailed troubleshooting, see `.plans/00-SETUP.md`.
+If you encounter other issues, please [create an issue](https://github.com/ryanlewis/ai-prompts/issues) on GitHub.
 
 ## Contributing
 
@@ -167,6 +167,7 @@ This project uses the [eleventy-notes](https://github.com/rothsandro/eleventy-no
 
 ## Resources
 
+- [Claude Code](https://claude.ai/code) - AI coding assistant by Anthropic
 - [Eleventy Documentation](https://www.11ty.dev/docs/)
 - [Eleventy Notes Documentation](https://eleventy-notes.sandroroth.com)
 - [Obsidian](https://obsidian.md/)
