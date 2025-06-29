@@ -9,6 +9,7 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ### Changed
 - Reduced spacing between copy prompt button and following headers for better visual flow
+- Applied consistent spacing for paragraphs following copy prompt button
 
 ## [2025-06-29] - Obsidian Integration
 

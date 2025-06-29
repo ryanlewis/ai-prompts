@@ -20,12 +20,13 @@ article hr {
   border-top: 1px solid var(--color-border, #e5e7eb);
 }
 
-/* Reduce spacing when headers follow the copy prompt button */
+/* Reduce spacing when headers or paragraphs follow the copy prompt button */
 .prompt-copy-btn + h1,
 .prompt-copy-btn + h2,
 .prompt-copy-btn + h3,
 .prompt-copy-btn + h4,
 .prompt-copy-btn + h5,
-.prompt-copy-btn + h6 {
+.prompt-copy-btn + h6,
+.prompt-copy-btn + p {
   margin-top: 0.5rem;
 }
