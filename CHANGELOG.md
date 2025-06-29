@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-06-29] - Documentation Enhancement
+
+### Added
+- Official Claude Code documentation section to index.md with links to Anthropic's official resources
+- Detailed summaries for Claude Code documentation and Anthropic Quickstarts CLAUDE.md
+- UK English spelling conventions applied to new documentation
+- Claude Code website link to README.md Resources section
+
+### Changed
+- Removed reference to .plans/00-SETUP.md from troubleshooting section
+- Added invitation to create GitHub issues for troubleshooting help
+
 ## [2025-06-29] - UI Improvements
 
 ### Changed
