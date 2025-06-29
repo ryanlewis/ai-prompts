@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-06-29] - UI Improvements
+
+### Changed
+- Reduced spacing between copy prompt button and following headers for better visual flow
+
 ## [2025-06-29] - Obsidian Integration
 
 ### Added
