@@ -1,9 +1,9 @@
 ---
-title: "Cheat-Sheet"
+title: "Claude Code Cheat-Sheet"
 author: "@ryanlewis"
 ---
 
-# Claude Code Prompting Cheat‑Sheet
+# Claude Code Cheat‑Sheet
 
 ## Guiding Principles
 
