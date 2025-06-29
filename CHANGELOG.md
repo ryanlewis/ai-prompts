@@ -14,6 +14,9 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 - File ignore plugin configuration for clean Obsidian workspace
 - Comprehensive file exclusion patterns for build artifacts
 
+### Changed
+- Updated file-ignore plugin configuration with complete structure including rules and history
+
 ## [2025-06-29] - Documentation Updates
 
 ### Added

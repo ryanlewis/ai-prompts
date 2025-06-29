@@ -1,4 +1,10 @@
 {
+  "rules": "temp/\n*.tmp\n.DS_Store\nThumbs.db",
+  "ignoredFiles": [],
+  "debug": false,
+  "rulesHistory": [
+    "temp/\n*.tmp\n.DS_Store\nThumbs.db"
+  ],
   "patterns": [
     ".app/",
     "_site/",
