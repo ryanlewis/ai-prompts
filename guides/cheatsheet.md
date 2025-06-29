@@ -5,14 +5,14 @@ author: "@ryanlewis"
 
 # Claude Code Prompting Cheat‑Sheet
 
-## 1. Guiding Principles
+## Guiding Principles
 
 * **Think before code** → Ask Claude to outline its reasoning first (`"Think:"`).
 * **State the end‑state** → Describe exact file paths, desired API signatures, test names, or UI snapshots you expect.
 * **Constrain the diff** → Use `"Change ONLY …"` or `"Leave all other files untouched."`
 * **Iterate in slices** → Prefer small, atomic prompts; chain multiple if needed.
 
-## 2. Core Prompt Patterns
+## Core Prompt Patterns
 
 | Intent          | Template                                                                   |
 | --------------- | -------------------------------------------------------------------------- |
@@ -22,13 +22,13 @@ author: "@ryanlewis"
 | Generate docs   | `"Summarise the decisions above as markdown in /docs/design/<feature>.md"` |
 | Verify output   | `"Show me the new diff only; no commentary."`                              |
 
-## 3. Prompt Macros & Tokens
+## Prompt Macros & Tokens
 
 * `think` / `think harder` / `ultrathink` → progressively larger reasoning budgets.
 * `bash:` prefix → shell commands in direct execution mode.
 * `// skip_review` at top of message → bypass human oversight for low‑risk routines.
 
-## 4. Example Prompt Snippets
+## Example Prompt Snippets
 
 ```text
 Plan step‑by‑step how to migrate uses of the legacy `PaymentClient` to 
@@ -45,13 +45,13 @@ Refactor `src/cli/main.py` to extract argument parsing into a separate
 module `src/cli/arguments.py`; keep behaviour identical and tests green.
 ```
 
-## 5. Debugging Your Prompts
+## Debugging Your Prompts
 
 1. **Over‑explain constraints** → If Claude hallucinates paths, list them explicitly.
 2. **Slice large tasks** → Break big refactors into 3‑5 discrete prompts.
 3. **Ask for self‑critique** → `"Review your answer for mistakes, no code yet."`
 
-## 6. References & Further Reading
+## References & Further Reading
 
 * **Anthropic "think" tool** – official explanation of how `think:` pauses output for reflection. [Anthropic Engineering Blog](https://www.anthropic.com/engineering/claude-think-tool)
 * **Extended thinking mode** – controlling reasoning budgets with the "thinking budget" slider. [Anthropic News](https://www.anthropic.com/news/visible-extended-thinking)
