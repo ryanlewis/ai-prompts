@@ -23,6 +23,7 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 - Community Resources section with Awesome Claude Code repository link
 - UK English spelling conventions applied to new documentation
 - Claude Code website link to README.md Resources section
+- Comprehensive markdown conversion supporting headers, code blocks, lists, bold/italic text, and links
 
 ### Changed
 - Moved Resources section from index.md to dedicated guides/resources.md file
@@ -40,10 +41,15 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 - Updated eleventy-notes dependencies
 - Updated @parcel/transformer-sass to match parcel version
 - Updated lucide dependency to ^0.525.0
+- Improved Jira ticket prompt with concrete examples and better formatting
 
 ### Fixed
 - Parcel version compatibility issues
 - Line ending consistency across platforms
+- Fixed prompt copy functionality to preserve markdown formatting instead of copying plain text
+- Updated copyPromptContent and fallbackCopyToClipboard methods to use markdown conversion
+- Filtered out copy-to-clipboard button elements and SVG icons from copied markdown content
+- Added whitespace normalization to prevent excessive newlines and formatting artifacts
 
 ### Removed
 - Server.log files (added to gitignore)

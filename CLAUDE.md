@@ -117,3 +117,66 @@ Before committing any changes to the repository, you MUST update the CHANGELOG.m
 ```
 
 **Important**: Always update the changelog BEFORE creating commits. Since commits to main are automatically published, each commit should have its changes documented with the current date.
+
+## Git Commit Guidelines
+
+This project follows [Conventional Commits](https://conventionalcommits.org/) specification. All commit messages MUST adhere to this format:
+
+### Commit Message Format
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Commit Types
+- **feat**: New feature or functionality
+- **fix**: Bug fix
+- **docs**: Documentation changes only
+- **style**: Code style changes (formatting, missing semicolons, etc.)
+- **refactor**: Code changes that neither fix bugs nor add features
+- **test**: Adding or updating tests
+- **chore**: Maintenance tasks, dependency updates, build changes
+- **perf**: Performance improvements
+- **ci**: CI/CD configuration changes
+
+### Examples
+
+#### Simple commit
+```
+fix: correct markdown formatting in prompt copy functionality
+```
+
+#### Commit with scope
+```
+feat(prompts): add new Jira ticket creation template
+```
+
+#### Multi-line commit with body
+```
+refactor: restructure prompt organization for better discoverability
+
+- Move all prompt templates to /prompts directory
+- Update navigation structure in app.mjs
+- Add categories for different prompt types
+```
+
+#### Breaking change
+```
+feat!: change prompt template format to use YAML frontmatter
+
+BREAKING CHANGE: All existing prompts must be updated to include
+YAML frontmatter with title and category fields.
+```
+
+### Guidelines
+1. Use present tense ("add feature" not "added feature")
+2. Use imperative mood ("fix bug" not "fixes bug")
+3. Don't capitalise the first letter of the description
+4. Don't end the description with a period
+5. Limit the first line to 72 characters
+6. Reference issues and PRs in the footer when applicable
+
+**Note**: The changelog should reflect these commit types in its categories (Added → feat, Fixed → fix, Changed → refactor/style, etc.)
