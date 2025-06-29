@@ -1,13 +1,29 @@
+---
+title: Generate Tasks from Plan
+author: "@ryanlewis"
+related:
+  - "[[Test Coverage Task]]"
+  - "[[Create Jira Ticket]]"
+---
+
+## Description
+
+This prompt creates detailed project plans by breaking down priorities into actionable tasks. It generates structured documentation with clear goals, approaches, validation steps, and completion tracking suitable for LLM agents like Claude Code.
+
+---
+
+<div class="prompt-content">
+
 # Generate Tasks from Plan
 
-Plan out the work required to complete the first priority in `src/py/mcp_auth_gitub/docs/AI-116-improvements.md`.
+Plan out the work required to complete the first priority in `[PROJECT_PATH]/docs/[PRIORITY_DOCUMENT].md`.
 
 The plan should consist of the tasks required in order to complete priority 1.
 
-The plan should be placed in `src/py/mcp_auth_github/docs/priority-1.md`.
+The plan should be placed in `[PROJECT_PATH]/docs/[OUTPUT_FILENAME].md`.
 
 Do not make assumptions. Ask questions to clarify your understanding.
-     
+
 Produce the plan in the following template:
 
 ```
@@ -75,3 +91,5 @@ This plan is to be passed to an LLM agent, such as Claude Code or OpenAI Codex. 
 
 - the instructions you have been given
 - the structure of the template you have been given
+
+</div>

@@ -1,0 +1,21 @@
+.prompt-copy-btn {
+  margin-bottom: 1rem;
+  
+  &.success {
+    background-color: var(--color-success, #10b981);
+    color: white;
+  }
+  
+  &.error {
+    background-color: var(--color-error, #ef4444);
+    color: white;
+  }
+}
+
+.prompt-content {
+  position: relative;
+  
+  p {
+    margin-bottom: 1em;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ai-prompts-site",
+  "version": "1.0.0",
+  "description": "AI Prompts by @ryanlewis - Static site",
+  "scripts": {
+    "start": "cd .app && npm start",
+    "build": "cd .app && npm run build",
+    "serve": "cd .app && npm start",
+    "clean": "rm -rf _site .cache"
+  },
+  "private": true
+}

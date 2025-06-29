@@ -1,11 +1,26 @@
+---
+title: Test Coverage Task
+author: "@ryanlewis"
+related:
+  - "[[Generate Tasks from Plan]]"
+---
+
+## Description
+
+This prompt provides comprehensive instructions for improving test coverage in Python projects. It includes mandatory development workflows, architecture details, code style guidelines, and specific commands for testing and linting in a polyglot monorepo environment.
+
+---
+
+<div class="prompt-content">
+
 ## Task
 
 Improve the coverage of the following files:
 
-- src/py/mcp_auth_github/storage/sqlite.py
-- src/py/mcp_auth_github/storage/redis.py
-- src/py/mcp_auth_github/storage/__init__.py
-- src/py/mcp_auth_github/storage/memory.py
+- [PROJECT_PATH]/[MODULE_NAME]/[FILE1].py
+- [PROJECT_PATH]/[MODULE_NAME]/[FILE2].py
+- [PROJECT_PATH]/[MODULE_NAME]/__init__.py
+- [PROJECT_PATH]/[MODULE_NAME]/[FILE3].py
 
 Aim for 100% coverage.
 
@@ -25,7 +40,7 @@ You MUST finalise all Python work with `make check` and `uv run pre-commit` to e
 
 ## Architecture
 
-Polyglot monorepo: Python (uv, ruff, mypy) + JavaScript (Yarn, Turborepo) + Infrastructure (Terraform, Docker, AWS Lambda)
+[REPO_TYPE]: Python ([PACKAGE_MANAGER], [LINTER], [TYPE_CHECKER]) + [FRONTEND_TECH] + [INFRASTRUCTURE_TECH]
 
 ## Code Style
 
@@ -37,6 +52,8 @@ Polyglot monorepo: Python (uv, ruff, mypy) + JavaScript (Yarn, Turborepo) + Infr
 ## Key Rules
 
 - Never commit secrets
-- Add Python packages to `pyproject.toml` workspace members
-- Tests in `tests/test_*.py`
+- Add Python packages to `[CONFIG_FILE]` workspace members
+- Tests in `[TEST_DIR]/test_*.py`
 - Never add watermarks or signatures to commit messages
+
+</div>

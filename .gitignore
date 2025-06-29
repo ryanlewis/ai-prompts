@@ -8,3 +8,18 @@ Untitled*
 trash/
 .DS_Store
 
+# Eleventy output
+_site/
+.cache/
+
+# Node modules
+node_modules/
+.app/node_modules/
+
+# Build artifacts
+.app/.parcel-cache/
+.app/dist/
+
+# OS files
+Thumbs.db
+
