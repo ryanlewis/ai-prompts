@@ -1,0 +1,14 @@
+{
+  "patterns": [
+    ".app/",
+    "_site/",
+    "*.njk",
+    "package.json",
+    "package-lock.json",
+    "app.mjs",
+    "*.scss",
+    "node_modules/",
+    ".parcel-cache/",
+    ".cache/"
+  ]
+}

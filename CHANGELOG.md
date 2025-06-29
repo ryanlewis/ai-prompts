@@ -7,6 +7,13 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ## [Unreleased]
 
+## [2025-06-29] - Obsidian Integration
+
+### Added
+- Obsidian configuration documentation in .obsidian/README.md
+- File ignore plugin configuration for clean Obsidian workspace
+- Comprehensive file exclusion patterns for build artifacts
+
 ## [2025-06-29] - Documentation Updates
 
 ### Added
