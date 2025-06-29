@@ -23,3 +23,6 @@ node_modules/
 # OS files
 Thumbs.db
 
+# Log files
+*.log
+
