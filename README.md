@@ -1,4 +1,4 @@
-# AI Prompts by @ryanlewis
+# AI Prompts
 
 This repository contains an Obsidian notes vault with AI prompts and documentation, configured to generate a static website using [Eleventy](https://www.11ty.dev/) and the [eleventy-notes](https://github.com/rothsandro/eleventy-notes) starter template.
 
@@ -37,8 +37,8 @@ This project combines the power of Obsidian for note-taking with Eleventy's stat
 
 1. **Clone the repository**
    ```bash
-   git clone [your-repo-url]
-   cd [your-repo-name]
+   git clone https://github.com/ryanlewis/ai-prompts.git
+   cd ai-prompts
    ```
 
 2. **Install dependencies**
