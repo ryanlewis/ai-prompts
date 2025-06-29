@@ -12,8 +12,6 @@ This prompt creates detailed project plans by breaking down priorities into acti
 
 ---
 
-<div class="prompt-content">
-
 # Generate Tasks from Plan
 
 Plan out the work required to complete the first priority in `[PROJECT_PATH]/docs/[PRIORITY_DOCUMENT].md`.
@@ -92,4 +90,3 @@ This plan is to be passed to an LLM agent, such as Claude Code or OpenAI Codex. 
 - the instructions you have been given
 - the structure of the template you have been given
 
-</div>
