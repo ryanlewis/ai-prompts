@@ -14,6 +14,12 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 - Filtered out copy-to-clipboard button elements and SVG icons from copied markdown content
 - Added whitespace normalization to prevent excessive newlines and formatting artifacts
 
+### Changed
+- Improved Jira ticket prompt with concrete examples and better formatting
+
+### Added
+- Conventional Commits guidelines to CLAUDE.md for consistent commit message formatting
+
 ## [2025-06-29] - Obsidian Integration
 
 ### Added
