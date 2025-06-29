@@ -34,3 +34,4 @@ Outstanding work and future improvements for the AI Prompts documentation site.
 - [ ] Add automated testing for broken links
 - [ ] Consider adding RSS feed for new prompts
 - [ ] Add contributor guidelines for prompt submissions
+- [ ] Improve Obsidian configuration to ignore site-specific files (.app/, _site/, package.json, etc.)
