@@ -36,7 +36,5 @@ Think of these as proven patterns you can customise for your specific tools and 
 
 Have a great prompt to share? I'd love to hear from you. Feel free to submit suggestions or improvements through the project repository.
 
----
-
 Built with [Eleventy](https://www.11ty.dev/) and [eleventy-notes](https://github.com/rothsandro/eleventy-notes) by Sandro Roth.
 
