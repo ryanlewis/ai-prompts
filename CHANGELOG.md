@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-06-29] - Prompt Copy Markdown Fix
+
+### Fixed
+- Fixed prompt copy functionality to preserve markdown formatting instead of copying plain text
+- Updated copyPromptContent and fallbackCopyToClipboard methods to use markdown conversion
+- Added comprehensive markdown conversion supporting headers, code blocks, lists, bold/italic text, and links
+- Filtered out copy-to-clipboard button elements and SVG icons from copied markdown content
+- Added whitespace normalization to prevent excessive newlines and formatting artifacts
+
 ## [2025-06-29] - Obsidian Integration
 
 ### Added
