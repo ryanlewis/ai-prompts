@@ -16,6 +16,7 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ### Changed
 - Updated file-ignore plugin configuration with complete structure including rules and history
+- Added changelog management instructions to CLAUDE.md
 
 ## [2025-06-29] - Documentation Updates
 

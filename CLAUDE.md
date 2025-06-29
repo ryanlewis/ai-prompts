@@ -86,3 +86,34 @@ The `app.mjs` file controls:
 ## Writing Guidelines
 
 - Use UK english instead of US english
+
+## Changelog Management
+
+Before committing any changes to the repository, you MUST update the CHANGELOG.md file to document your changes:
+
+1. **Create a new dated section** at the top of the changelog (after any existing [Unreleased] section) using the format `## [YYYY-MM-DD] - Brief Description`
+2. **Add entries under the appropriate category**:
+   - **Added**: New features, files, or functionality
+   - **Changed**: Modifications to existing features
+   - **Deprecated**: Features marked for removal
+   - **Removed**: Deleted features or files
+   - **Fixed**: Bug fixes and corrections
+   - **Security**: Security-related changes
+
+3. **Follow the format**: Use bullet points with clear, concise descriptions
+4. **Be specific**: Describe what changed and why it matters to users
+5. **Reference issues or pull requests**: Include relevant numbers when applicable
+
+### Example Entry
+```markdown
+## [2025-06-29] - Feature Updates
+
+### Added
+- New prompt template for code review workflows
+- Search functionality to prompt collection
+
+### Fixed
+- Broken wikilinks in navigation sidebar
+```
+
+**Important**: Always update the changelog BEFORE creating commits. Since commits to main are automatically published, each commit should have its changes documented with the current date.
