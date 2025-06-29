@@ -9,6 +9,7 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ### Added
 - New guides/resources.md file containing official Claude Code documentation links
+- Community Resources section with Awesome Claude Code repository link
 
 ### Changed
 - Moved Resources section from index.md to dedicated guides/resources.md file
