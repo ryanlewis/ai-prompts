@@ -1,28 +1,55 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
-      "matchPaths": [".app/**"],
-      "groupName": "eleventy-notes dependencies"
+      "matchFileNames": [
+        ".app/**"
+      ],
+      "groupName": "eleventy-notes dependencies",
+      "matchPackageNames": [
+        "*"
+      ]
     },
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@11ty/eleventy", "parcel", "sass"],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "matchPackageNames": [
+        "@11ty/eleventy",
+        "parcel",
+        "sass"
+      ],
       "groupName": "build tools"
     },
     {
-      "matchDepTypes": ["dependencies"],
-      "matchPackageNames": ["alpinejs", "lucide", "pagefind"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "matchPackageNames": [
+        "alpinejs",
+        "lucide",
+        "pagefind"
+      ],
       "groupName": "frontend dependencies"
     }
   ],
-  "ignorePaths": ["_site/**", ".plans/**"],
-  "schedule": ["before 4am on Monday"],
+  "ignorePaths": [
+    "_site/**",
+    ".plans/**"
+  ],
+  "schedule": [
+    "before 4am on Monday"
+  ],
   "timezone": "UTC",
-  "labels": ["dependencies"],
-  "assignees": ["ryanlewis"],
+  "labels": [
+    "dependencies"
+  ],
+  "assignees": [
+    "ryanlewis"
+  ],
   "prHourlyLimit": 2,
   "prConcurrentLimit": 3,
   "semanticCommits": "enabled",
