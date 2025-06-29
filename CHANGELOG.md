@@ -5,71 +5,51 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
-## [2025-06-29] - Prompt Copy Markdown Fix
-
-### Fixed
-- Fixed prompt copy functionality to preserve markdown formatting instead of copying plain text
-- Updated copyPromptContent and fallbackCopyToClipboard methods to use markdown conversion
-- Added comprehensive markdown conversion supporting headers, code blocks, lists, bold/italic text, and links
-- Filtered out copy-to-clipboard button elements and SVG icons from copied markdown content
-- Added whitespace normalization to prevent excessive newlines and formatting artifacts
-
-### Changed
-- Improved Jira ticket prompt with concrete examples and better formatting
+## [2025-06-29] - Comprehensive Site Enhancement
 
 ### Added
-- Conventional Commits guidelines to CLAUDE.md for consistent commit message formatting
-
-## [2025-06-29] - Obsidian Integration
-
-### Added
+- Eleventy-based AI prompts documentation site with Obsidian-style note-taking integration
+- Static site generation with wikilinks support and task prompt template
+- New guides/resources.md file containing official Claude Code documentation links
+- Official Claude Code documentation section to index.md with links to Anthropic's official resources
+- Detailed summaries for Claude Code documentation and Anthropic Quickstarts CLAUDE.md
 - Obsidian configuration documentation in .obsidian/README.md
-- File ignore plugin configuration for clean Obsidian workspace
-- Comprehensive file exclusion patterns for build artifacts
+- File ignore plugin configuration for clean Obsidian workspace with comprehensive file exclusion patterns
+- CHANGELOG.md file following Keep a Changelog format
+- Conventional commits guidelines to CLAUDE.md documentation
+- Cross-platform line ending configuration for consistent development
+- Site favicon from rlew.io and HTML page title suffixes for better SEO
+- Renovate bot configuration for automated dependency management with enhanced project-specific settings
+- Community Resources section with Awesome Claude Code repository link
+- UK English spelling conventions applied to new documentation
+- Claude Code website link to README.md Resources section
+- Comprehensive markdown conversion supporting headers, code blocks, lists, bold/italic text, and links
 
 ### Changed
+- Moved Resources section from index.md to dedicated guides/resources.md file
+- Removed reference to .plans/00-SETUP.md from troubleshooting section
+- Added invitation to create GitHub issues for troubleshooting help
+- Reduced spacing between copy prompt button and following headers for better visual flow
+- Applied consistent spacing for paragraphs following copy prompt button
 - Updated file-ignore plugin configuration with complete structure including rules and history
 - Added changelog management instructions to CLAUDE.md
 - Removed [Unreleased] section from changelog format
-
-## [2025-06-29] - Documentation Updates
-
-### Added
-- CHANGELOG.md file following Keep a Changelog format
-- Project change tracking and versioning documentation
-
-## [2025-06-29] - Latest Changes
-
-### Added
-- Conventional commits guidelines to CLAUDE.md documentation
-- Cross-platform line ending configuration for consistent development
-- Site favicon from rlew.io
-- HTML page title suffixes for better SEO
-- Renovate bot configuration for automated dependency management
-- Enhanced Renovate configuration with project-specific settings
-
-### Changed
+- Moved architecture guidance from README to tips guide
+- Simplified README with correct repository links
+- Replaced prompt-content divs with horizontal rule detection
 - Updated build tools and dependencies via Renovate
 - Updated eleventy-notes dependencies
 - Updated @parcel/transformer-sass to match parcel version
 - Updated lucide dependency to ^0.525.0
+- Improved Jira ticket prompt with concrete examples and better formatting
 
 ### Fixed
 - Parcel version compatibility issues
 - Line ending consistency across platforms
-
-## [2025-06-29] - Site Architecture
-
-### Added
-- Eleventy-based AI prompts documentation site
-- Obsidian-style note-taking integration
-- Static site generation with wikilinks support
-- Task prompt template
-
-### Changed
-- Moved architecture guidance from README to tips guide
-- Simplified README with correct repository links
-- Replaced prompt-content divs with horizontal rule detection
+- Fixed prompt copy functionality to preserve markdown formatting instead of copying plain text
+- Updated copyPromptContent and fallbackCopyToClipboard methods to use markdown conversion
+- Filtered out copy-to-clipboard button elements and SVG icons from copied markdown content
+- Added whitespace normalization to prevent excessive newlines and formatting artifacts
 
 ### Removed
 - Server.log files (added to gitignore)
@@ -85,13 +65,6 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ### Changed
 - Simplified TODO.md to focus on explicitly mentioned items
-
-## Project Versioning
-
-This project follows semantic versioning principles:
-- **MAJOR**: Incompatible API changes or significant architectural changes
-- **MINOR**: New features and functionality additions
-- **PATCH**: Bug fixes and small improvements
 
 ## Contributing
 
