@@ -51,8 +51,6 @@ module `src/cli/arguments.py`; keep behaviour identical and tests green.
 2. **Slice large tasks** → Break big refactors into 3‑5 discrete prompts.
 3. **Ask for self‑critique** → `"Review your answer for mistakes, no code yet."`
 
----
-
 ## 6. References & Further Reading
 
 * **Anthropic "think" tool** – official explanation of how `think:` pauses output for reflection. [Anthropic Engineering Blog](https://www.anthropic.com/engineering/claude-think-tool)
@@ -61,7 +59,3 @@ module `src/cli/arguments.py`; keep behaviour identical and tests green.
 * **Plan‑Code‑Commit workflow** – using small logical commits to review agent output. [Hacker News discussion](https://news.ycombinator.com/item?id=44218518)
 * **TDD with Claude** – write failing tests first to keep the agent honest. [Reddit thread](https://www.reddit.com/r/ClaudeAI/comments/1lfirvk/any_tips_on_how_to_get_claude_to_stop_cheating_on/)
 * **Diff‑only verification** – reviewing generated commits without commentary. [Hacker News](https://news.ycombinator.com/item?id=44205697)
-
----
-
-*Add your own prompt patterns below:*
