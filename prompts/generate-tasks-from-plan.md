@@ -14,7 +14,7 @@ This prompt creates detailed project plans by breaking down priorities into acti
 
 # Generate Tasks from Plan
 
-Plan out the work required to complete the first priority in `[PROJECT_PATH]/docs/[PRIORITY_DOCUMENT].md`.
+Plan out the work required to implement all requirements defined in `[PROJECT_PATH]/docs/[PRD_DOCUMENT].md`.
 
 The plan should consist of the tasks required in order to implement the service as defined in the PRD document.
 
