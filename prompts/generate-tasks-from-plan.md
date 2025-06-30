@@ -67,7 +67,7 @@ All commands are to be ran from the root directory unless stated otherwise. Use 
 ## Strict instructions
 
 - You MUST validate your work with `uv run pytest` and `make test-python` from the root directory
-- You MUST validate. your work with `uv run ruff check` and `make lint-python` from the root directory. You may use `uv run ruff` to complete linting tasks such as fixes and formatting.
+- You MUST validate your work with `uv run ruff check` and `make lint-python` from the root directory. You may use `uv run ruff` to complete linting tasks such as fixes and formatting.
 - You MUST NOT make assumptions. Seek clarification from the user if you are unsure.
 - You MUST update this plan file when you have completed a task, showing what tasks have been completed and provide a short summary of what has been done for that task.
 - You MUST complete a final validation (using `make check` from root directory) and update this plan with a statement.
