@@ -74,7 +74,10 @@ All commands are to be ran from the root directory unless stated otherwise. Use 
 
 ## Tasks
 
-### [ ] Task 1 - <Summary>
+### Task 1 - <Summary>
+**Status:** 🔴 Not Started | 🟡 In Progress | 🟢 Completed  
+**Jira Issue:** [ISSUE-123](https://your-jira.atlassian.net/browse/ISSUE-123) | Not Created
+
 Description of the task.
 
 Dependencies:
@@ -90,7 +93,10 @@ Success criteria:
 - Success criteria 2
 - Success criteria 3
 
-### [ ] Task 2 - <Summary>
+### Task 2 - <Summary>
+**Status:** 🔴 Not Started | 🟡 In Progress | 🟢 Completed  
+**Jira Issue:** [ISSUE-123](https://your-jira.atlassian.net/browse/ISSUE-123) | Not Created
+
 Description of the task.
 
 Dependencies:
