@@ -16,29 +16,40 @@ This prompt creates detailed project plans by breaking down priorities into acti
 
 Plan out the work required to complete the first priority in `[PROJECT_PATH]/docs/[PRIORITY_DOCUMENT].md`.
 
-The plan should consist of the tasks required in order to complete priority 1.
+The plan should consist of the tasks required in order to implement the service as defined in the PRD document.
 
-The plan should be placed in `[PROJECT_PATH]/docs/[OUTPUT_FILENAME].md`.
+The plan should be placed in `[PROJECT_PATH]/docs/[OUTPUT_FILENAME].md`. The plan should be formatted in a way that it can track progress and completion status.
+
+Break down the plan into discrete, implementable tasks. For each task, include:
+  - Clear description of what needs to be built
+  - Dependencies on other tasks
+  - Estimated complexity
+  - Suggested test strategy
+  - Success criteria
+
+Order the tasks by dependencies and priority.
+
+Ensure tasks are atomic and can be completed independently.
 
 Do not make assumptions. Ask questions to clarify your understanding.
 
 Produce the plan in the following template:
 
 ```
-# Priority 1 - Plan of work
+# [PRD title] - Plan of work
 
 ## Summary
 
-Summary of what priority 1 is.
+Summary of what is being achieved.
 
 ## Goals
 
-- List of goals for priority 1.
+- List of goals.
 
-## Approach 
+## Approach
 
-- Start with writing tests before making any changes to the code. 
-- All work must be validated by the tests. 
+- Start with writing tests before making any changes to the code.
+- All work must be validated by the tests.
 - All code should have appropriate docstrings.
 - All code should validate using `make check` from the root of the repository.
 
@@ -58,23 +69,42 @@ All commands are to be ran from the root directory unless stated otherwise. Use 
 - You MUST validate your work with `uv run pytest` and `make test-python` from the root directory
 - You MUST validate. your work with `uv run ruff check` and `make lint-python` from the root directory. You may use `uv run ruff` to complete linting tasks such as fixes and formatting.
 - You MUST NOT make assumptions. Seek clarification from the user if you are unsure.
-- You MUST update this plan file when you have completed a task, showing what tasks have been completed and provide a short summary of what has been done for that task. 
-- You MUST complete a final validation (using `make check` from root directory) and update this plan with a statement. 
+- You MUST update this plan file when you have completed a task, showing what tasks have been completed and provide a short summary of what has been done for that task.
+- You MUST complete a final validation (using `make check` from root directory) and update this plan with a statement.
 
 ## Tasks
 
-### Task grouping 1
+### [ ] Task 1 - <Summary>
+Description of the task.
 
-1. [ ] Task 1
-  - Useful information about task 1
-2. [ ] Task 2
-3. [ ] Task 3
+Dependencies:
+- Dependency 1
+- Dependency 2
 
-### Task grouping 2
+Estimated complexity: <Estimated Complexity>
 
-1. [ ] Task 4
-2. [ ] Task 5
-3. [ ] Task 6
+Test strategy: <Test Strategy>
+
+Success criteria:
+- Success criteria 1
+- Success criteria 2
+- Success criteria 3
+
+### [ ] Task 2 - <Summary>
+Description of the task.
+
+Dependencies:
+- Dependency 1
+- Dependency 2
+
+Estimated complexity: <Estimated Complexity>
+
+Test strategy: <Test Strategy>
+
+Success criteria:
+- Success criteria 1
+- Success criteria 2
+- Success criteria 3
 
 ## Notes for implementation
 
@@ -83,6 +113,7 @@ Other notes that are useful.
 ## Completion notes
 
 Notes on completion of the tasks above.
+
 ```
 
 This plan is to be passed to an LLM agent, such as Claude Code or OpenAI Codex. As such, evaluate whether the plan is sufficient for the work to be completed completely, and make suggestions to the user for any improvements either to:
