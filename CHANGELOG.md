@@ -9,6 +9,10 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ### Added
 - Awesome Claude Prompts repository link to guides/resources.md under Community Resources section
+- Wikilink prevention instruction for CLAUDE.md references in project documentation
+
+### Fixed
+- Wrapped CLAUDE.md references in backticks to prevent wikilink creation (except in markdown link text)
 
 ## [2025-06-29] - Comprehensive Site Enhancement
 

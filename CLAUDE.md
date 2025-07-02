@@ -57,6 +57,8 @@ All Node.js dependencies are managed in `.app/package.json`. The root `package.j
 - Internal links use `[[Note Name]]` syntax
 - Automatically resolved by eleventy-notes
 - Support for backlinks and note graphs
+- When referencing `CLAUDE.md` in content, wrap it in backticks to prevent wikilink creation
+  - Exception: Don't use backticks when `CLAUDE.md` is part of a markdown link (e.g., `[text](path/to/CLAUDE.md)`)
 
 ### Site Configuration
 The `app.mjs` file controls:
