@@ -28,3 +28,10 @@ title: Resources
 - Innovative use cases including CI/CD integration, testing workflows, and documentation
 - Comprehensive list of slash commands and IDE integrations
 - Real-world examples from developers using Claude Code in production
+
+[Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts) by @langgptai
+- Extensive collection of Claude prompts for various use cases and domains
+- Prompt engineering techniques and best practices specific to Claude
+- Templates for common tasks including coding, writing, analysis, and creative work
+- Community-contributed prompts with real-world applications
+- Regular updates with new prompting strategies and Claude capabilities

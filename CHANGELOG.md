@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-07-02] - Community Resources Update
+
+### Added
+- Awesome Claude Prompts repository link to guides/resources.md under Community Resources section
+
 ## [2025-06-29] - Comprehensive Site Enhancement
 
 ### Added
