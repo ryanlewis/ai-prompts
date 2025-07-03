@@ -3,6 +3,10 @@ title: Home
 author: "@ryanlewis"
 ---
 
+👋 Hello, I'm Ryan. 
+
+I've collated a series of prompts and Claude Code commands that have served me well in my software engineering work. These are the exact prompts I use daily for managing Jira tickets, implementing features, writing tests, and maintaining code quality.
+
 This site contains a curated collection of AI prompts and Claude Code commands specifically designed for **software engineering workflows** - from project management and issue tracking to code implementation, testing, and deployment.
 
 ## Getting Started

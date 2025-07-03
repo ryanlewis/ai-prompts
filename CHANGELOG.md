@@ -7,6 +7,9 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 
 ## [2025-07-03] - Software Engineering Focus Update
 
+### Added
+- Personal introduction to home page with direct statement about prompt collection
+
 ### Changed
 - Updated home page (index.md) to explicitly highlight software engineering focus
 - Revised main description to emphasise software engineering workflows
