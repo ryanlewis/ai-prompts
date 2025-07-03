@@ -29,6 +29,13 @@ title: Resources
 - Comprehensive list of slash commands and IDE integrations
 - Real-world examples from developers using Claude Code in production
 
+[ClaudeLog](https://claudelog.com) by InventorBlack
+- Comprehensive documentation and community-driven resource for Claude Code developers
+- In-depth installation and configuration guides with performance optimisation techniques
+- Advanced `CLAUDE.md` configuration strategies and best practices
+- FAQs and troubleshooting guides based on community experiences
+- Practical insights for integrating AI into development workflows
+
 [Awesome Claude Prompts](https://github.com/langgptai/awesome-claude-prompts) by @langgptai
 - Extensive collection of Claude prompts for various use cases and domains
 - Prompt engineering techniques and best practices specific to Claude

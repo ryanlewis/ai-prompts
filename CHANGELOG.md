@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-07-03] - ClaudeLog Resource Addition
+
+### Added
+- ClaudeLog.com resource link to guides/resources.md under Community Resources section
+- Comprehensive documentation resource for Claude Code developers with installation guides and best practices
+
 ## [2025-07-02] - Community Resources Update
 
 ### Added
