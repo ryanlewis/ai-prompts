@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-07-03] - Claude Code Commands Section
+
+### Added
+- New Claude Code Commands section to the documentation site
+- Created /commands/ directory for Claude Code specific commands
+- Added implement-jira-issue.md command documentation for automating Jira issue implementation workflow
+- Updated app.mjs to include Claude Code Commands section in sidebar navigation after Prompts section
+
 ## [2025-07-03] - ClaudeLog Resource Addition
 
 ### Added

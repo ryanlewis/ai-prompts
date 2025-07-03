@@ -59,6 +59,22 @@ export default defineConfig({
         ]
       },
       {
+        label: "Claude Code Commands",
+        groups: [
+          {
+            query: createNotesQuery({
+              pattern: "^/commands/",
+              tree: {
+                replace: {
+                  "^/\\w+": "",
+                },
+              },
+            }),
+            label: "Commands"
+          }
+        ]
+      },
+      {
         label: "Extra",
         groups: [
           {
