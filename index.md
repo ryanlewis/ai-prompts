@@ -3,17 +3,29 @@ title: Home
 author: "@ryanlewis"
 ---
 
-This site contains a curated collection of AI prompts and templates for various tasks and workflows.
+This site contains a curated collection of AI prompts and Claude Code commands specifically designed for **software engineering workflows** - from project management and issue tracking to code implementation, testing, and deployment.
 
 ## Getting Started
 
-Browse through our collection of prompts organised by category and use case. Each prompt is designed to be:
+Browse through the collection of software engineering prompts and commands organised by workflow. Each prompt is designed to be:
 
 - **Copy-ready** - Simply copy and paste into your AI tool of choice
-- **Customisable** - Easily adapt prompts to your specific needs
-- **Well-tested** - All prompts have been validated for effectiveness
+- **Workflow-focused** - Covers complete engineering processes from planning to deployment
+- **Tool-aware** - Optimised for modern development tools and practices
+- **Well-tested** - All prompts have been validated in real engineering scenarios
 
-## Domain Focus
+## Software Engineering Workflows
+
+These prompts and commands cover key aspects of software development:
+
+- **Project Planning** - Breaking down requirements, creating technical specifications
+- **Issue Management** - Creating and implementing Jira tickets, tracking progress
+- **Code Implementation** - Structured approaches to feature development and bug fixes
+- **Testing & Quality** - Writing tests, ensuring code coverage, maintaining standards
+- **Code Review** - Analysing changes, providing feedback, ensuring best practices
+- **Documentation** - Technical docs, API references, architectural decisions
+
+## Engineering Stack & Tools
 
 These prompts are specifically designed around **Jira**, **Python**, and **JavaScript** workflows, covering project management, ticket creation, development practices, testing, and code quality. While these prompts are optimised for these tools, they serve as excellent **examples and templates** that can be easily adapted for:
 

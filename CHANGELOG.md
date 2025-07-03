@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-07-03] - Software Engineering Focus Update
+
+### Changed
+- Updated home page (index.md) to explicitly highlight software engineering focus
+- Revised main description to emphasise software engineering workflows
+- Updated "Getting Started" section with engineering-specific benefits
+- Renamed "Domain Focus" to "Engineering Stack & Tools" for clarity
+- Added new "Software Engineering Workflows" section listing covered development lifecycle areas
+
 ## [2025-07-03] - Claude Code Commands Section
 
 ### Added
