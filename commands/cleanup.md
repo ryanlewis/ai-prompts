@@ -3,8 +3,6 @@ title: Cleanup Git Branch
 author: "@ryanlewis"
 ---
 
-# Cleanup Git Branch
-
 ## Description
 
 This Claude Code command automates the post-merge cleanup workflow for Git branches. It safely removes local branches that have been merged, prunes remote references, and ensures your local repository stays clean and organised. The command includes comprehensive safety checks to prevent accidental deletion of unmerged work and provides clear feedback throughout the process.

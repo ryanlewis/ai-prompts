@@ -3,8 +3,6 @@ title: Implement Jira Issue
 author: "@ryanlewis"
 ---
 
-# Implement Jira Issue
-
 ## Description
 
 This Claude Code command automates the complete workflow of implementing a Jira issue - from fetching and analysing the issue details to making code changes, writing tests, and updating the ticket status. It provides a structured approach to ensure thorough implementation with proper testing and documentation.
