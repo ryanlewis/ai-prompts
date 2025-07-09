@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-07-09] - Claude Code Commands and Prompts Enhancement
+
+### Added
+- New cleanup.md command in /commands/ directory for automating Git branch cleanup workflow
+- Frontmatter and enhanced description to cleanup.md following implement-jira-issue.md format
+- Frontmatter and enhanced description to gh-issue.md prompt for GitHub issue implementation workflow
+
+### Changed
+- Generalized gh-issue.md prompt to remove project-specific references (Dog Pound, Bun, TypeScript, Sapphire Framework)
+- Updated gh-issue.md to work with any project setup and package manager
+
+### Fixed
+- Moved cleanup.md from incorrect /prompts/ directory to proper /commands/ directory
+
 ## [2025-07-03] - Software Engineering Focus Update
 
 ### Added
