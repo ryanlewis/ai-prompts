@@ -9,10 +9,12 @@ author: "@ryanlewis"
 
 This prompt automates the complete workflow for implementing GitHub issues in any project. It guides through fetching issue details, creating feature branches following conventional commit standards, implementing changes with proper testing, and creating pull requests that automatically close issues upon merge. The workflow emphasises code quality through comprehensive validation checks and maintains project conventions throughout the implementation process.
 
+---
+
 ## Usage
 
 ```
-gh-issue <issue-number>
+/gh-issue <issue-number>
 ```
 
 ## Implementation Workflow
