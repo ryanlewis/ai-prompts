@@ -1,13 +1,27 @@
 ---
 title: Implement Jira Issue
 author: "@ryanlewis"
-allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(git checkout:*), Bash(git push:*), Bash(git pull:*)
-argument-hint: "[jira-id]"
 ---
 
 ## Description
 
 This Claude Code command automates the complete workflow of implementing a Jira issue - from fetching and analysing the issue details to making code changes, writing tests, and updating the ticket status. It provides a streamlined, git-integrated approach with emphasis on TDD and proper workspace management.
+
+I have this stored at `~/.claude/commands/jira/implement.md`, which then translates to the following command in Claude Code.
+
+```
+/jira:implement [jira-id]
+```
+
+This prompt is best used with the following frontmatter:
+
+```
+---
+allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(git checkout:*), Bash(git push:*), Bash(git pull:*)
+description: Implement JIRA issue
+argument-hint: [jira-id]
+---
+```
 
 ---
 
