@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-08-13] - Implement Jira Issue Command Update
+
+### Changed
+- Updated implement-jira-issue.md command with streamlined 10-step workflow
+- Added git workflow integration including branch creation and workspace preparation
+- Introduced context section showing current git status and recent commits
+- Emphasised TDD approach with tests before implementation
+- Simplified command structure from 161 lines to 49 lines for better clarity
+- Added frontmatter fields for allowed-tools and argument-hint for Claude Code integration
+
 ## [2025-07-09] - Claude Code Commands and Prompts Enhancement
 
 ### Added
