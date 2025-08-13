@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "AI Prompts by @ryanlewis - Static site",
   "scripts": {
+    "postinstall": "cd .app && npm install",
     "start": "cd .app && npm start",
     "build": "cd .app && npm run build",
     "serve": "cd .app && npm start",
