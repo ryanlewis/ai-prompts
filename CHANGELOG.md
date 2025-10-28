@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2025-10-28] - Cloudflare Pages Deployment Configuration
+
+### Added
+- Created `wrangler.toml` configuration file to specify correct build settings for Cloudflare Pages
+- Added `.node-version` file to ensure Node.js 20 LTS is used during deployment
+
+### Fixed
+- Fixed Cloudflare Pages deployment error where build was incorrectly attempting to use `npx vercel build` instead of `npm run build`
+- Resolved Edge Runtime error for static assets by properly configuring Eleventy build output directory (`.app/dist`)
+
 ## [2025-08-13] - Implement Jira Issue Command Update
 
 ### Changed
