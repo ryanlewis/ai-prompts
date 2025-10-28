@@ -29,9 +29,9 @@
     "nanohtml": "^1.10.0",
     "node-html-parser": "^7.0.1",
     "npm-run-all2": "^8.0.4",
-    "parcel": "^2.15.4",
+    "parcel": "^2.16.0",
     "rimraf": "^6.0.1",
-    "sass": "^1.89.2"
+    "sass": "^1.93.2"
   },
   "dependencies": {
     "@radix-ui/colors": "^3.0.0",
