@@ -19,6 +19,7 @@
       ],
       "matchPackageNames": [
         "@11ty/eleventy",
+        "@parcel/**",
         "parcel",
         "sass"
       ],
