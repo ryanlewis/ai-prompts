@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2026-01-27] - Skills Evolution Note
+
+### Changed
+- Updated homepage to note the shift towards using Claude Code skills rather than copy-paste prompts
+- Added link to official Claude Code skills documentation
+
 ## [2025-10-28] - Cloudflare Pages Deployment Configuration
 
 ### Added
