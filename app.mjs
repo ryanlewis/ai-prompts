@@ -43,38 +43,6 @@ export default defineConfig({
     ],
     sections: [
       {
-        label: "Prompts",
-        groups: [
-          {
-            query: createNotesQuery({
-              pattern: "^/prompts/",
-              tree: {
-                replace: {
-                  "^/\\w+": "",
-                },
-              },
-            }),
-            label: "AI Prompts"
-          }
-        ]
-      },
-      {
-        label: "Claude Code Commands",
-        groups: [
-          {
-            query: createNotesQuery({
-              pattern: "^/commands/",
-              tree: {
-                replace: {
-                  "^/\\w+": "",
-                },
-              },
-            }),
-            label: "Commands"
-          }
-        ]
-      },
-      {
         label: "Extra",
         groups: [
           {

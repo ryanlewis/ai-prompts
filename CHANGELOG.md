@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Conventional Commits](https://conventionalcommits.org/).
 
+## [2026-01-29] - Site Archive
+
+### Changed
+- Archived site content - prompts and commands replaced with archive notice
+- Updated homepage with archive notice, explanation, and links to alternatives
+- Replaced prompts/commands content with references to GitHub historical tag and marketplace plugins
+- Removed "Prompt Macros & Tokens" section from cheatsheet (outdated think/ultrathink keywords)
+- Removed outdated references about deep thinking keywords from cheatsheet
+
+### Removed
+- Deleted `/prompts/` directory (4 prompt template files)
+- Deleted `/commands/` directory (2 command files)
+- Removed "AI Prompts" and "Claude Code Commands" sidebar sections from app.mjs
+
+### Fixed
+- Fixed double header issue in guides/cheatsheet.md (removed duplicate H1)
+- Fixed double header issue in guides/tips.md (removed duplicate H1)
+- Fixed double header issue in guides/resources.md (removed duplicate H1)
+
 ## [2026-01-29] - Umami Analytics Integration
 
 ### Added

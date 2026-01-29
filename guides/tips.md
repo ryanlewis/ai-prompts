@@ -3,8 +3,6 @@ title: Tips
 author: "@ryanlewis"
 ---
 
-# Tips for Writing Effective AI Prompts
-
 ## Be Specific and Clear
 
 - **Use precise language**: Avoid ambiguous terms and clearly define what you want

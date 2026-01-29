@@ -3,8 +3,6 @@ title: "Claude Code Cheat-Sheet"
 author: "@ryanlewis"
 ---
 
-# Claude Code Cheat‑Sheet
-
 ## Guiding Principles
 
 * **Think before code** → Ask Claude to outline its reasoning first (`"Think:"`).
@@ -22,16 +20,10 @@ author: "@ryanlewis"
 | Generate docs   | `"Summarise the decisions above as markdown in /docs/design/<feature>.md"` |
 | Verify output   | `"Show me the new diff only; no commentary."`                              |
 
-## Prompt Macros & Tokens
-
-* `think` / `think harder` / `ultrathink` → progressively larger reasoning budgets.
-* `bash:` prefix → shell commands in direct execution mode.
-* `// skip_review` at top of message → bypass human oversight for low‑risk routines.
-
 ## Example Prompt Snippets
 
 ```text
-Plan step‑by‑step how to migrate uses of the legacy `PaymentClient` to 
+Plan step‑by‑step how to migrate uses of the legacy `PaymentClient` to
 `NewPaymentClient` across the `billing/` folder, then stop and wait for my OK.
 ```
 
@@ -41,7 +33,7 @@ Write a failing pytest in `tests/cli/test_config.py` that expresses:
 ```
 
 ```text
-Refactor `src/cli/main.py` to extract argument parsing into a separate 
+Refactor `src/cli/main.py` to extract argument parsing into a separate
 module `src/cli/arguments.py`; keep behaviour identical and tests green.
 ```
 
@@ -53,9 +45,6 @@ module `src/cli/arguments.py`; keep behaviour identical and tests green.
 
 ## References & Further Reading
 
-* **Anthropic "think" tool** – official explanation of how `think:` pauses output for reflection. [Anthropic Engineering Blog](https://www.anthropic.com/engineering/claude-think-tool)
-* **Extended thinking mode** – controlling reasoning budgets with the "thinking budget" slider. [Anthropic News](https://www.anthropic.com/news/visible-extended-thinking)
-* **Deep Thinking Keywords** – community‑measured token counts for `think hard`, `think harder`, `ultrathink`. [Reddit r/ClaudeAI](https://www.reddit.com/r/ClaudeAI/comments/1jfespc/claude_codes_deep_thinking_keywords/)
 * **Plan‑Code‑Commit workflow** – using small logical commits to review agent output. [Hacker News discussion](https://news.ycombinator.com/item?id=44218518)
 * **TDD with Claude** – write failing tests first to keep the agent honest. [Reddit thread](https://www.reddit.com/r/ClaudeAI/comments/1lfirvk/any_tips_on_how_to_get_claude_to_stop_cheating_on/)
 * **Diff‑only verification** – reviewing generated commits without commentary. [Hacker News](https://news.ycombinator.com/item?id=44205697)

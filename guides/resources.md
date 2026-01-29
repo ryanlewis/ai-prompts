@@ -2,8 +2,6 @@
 title: Resources
 ---
 
-# Resources
-
 ## Official Claude Code Documentation
 
 [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code) by Anthropic
