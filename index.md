@@ -23,9 +23,11 @@ The original prompts and commands are preserved in the Git history. View the con
 
 ### Official Claude Plugins
 
-A curated directory of high-quality plugins for Claude Code:
+Anthropic's official and curated plugins for Claude Code. Notable plugins include:
 
-- [claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
+- **superpowers** - Enhanced capabilities for Claude Code workflows
+
+Browse all plugins at [claude-plugins-official](https://github.com/anthropics/claude-plugins-official).
 
 ### My Plugins
 
