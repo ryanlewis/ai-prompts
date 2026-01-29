@@ -21,9 +21,9 @@ The original prompts and commands are preserved in the Git history. View the con
 
 ## Recommended Alternatives
 
-### Anthropic Marketplace
+### Official Claude Plugins
 
-The [Anthropic Marketplace](https://marketplace.anthropic.com/) offers community-built plugins for Claude Code. Notable plugins include:
+The [claude-plugins-official](https://github.com/anthropics/claude-plugins-official) repository contains Anthropic's official plugins for Claude Code. Notable plugins include:
 
 - **superpowers** - Enhanced capabilities for Claude Code workflows
 

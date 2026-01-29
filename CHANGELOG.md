@@ -10,7 +10,7 @@ and this project adheres to [Conventional Commits](https://conventionalcommits.o
 ### Changed
 - Archived site content - prompts and commands replaced with archive notice
 - Updated homepage with archive notice, explanation, and links to alternatives
-- Replaced prompts/commands content with references to GitHub historical tag and marketplace plugins
+- Replaced prompts/commands content with references to GitHub historical tag and official plugins
 - Removed "Prompt Macros & Tokens" section from cheatsheet (outdated think/ultrathink keywords)
 - Removed outdated references about deep thinking keywords from cheatsheet
 
