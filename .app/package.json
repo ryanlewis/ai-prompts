@@ -31,7 +31,7 @@
     "npm-run-all2": "^8.0.4",
     "parcel": "^2.16.4",
     "rimraf": "^6.1.2",
-    "sass": "^1.93.3"
+    "sass": "^1.97.3"
   },
   "dependencies": {
     "@radix-ui/colors": "^3.0.0",
