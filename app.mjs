@@ -38,7 +38,7 @@ export default defineConfig({
       {
         url: "https://github.com/ryanlewis/ai-prompts",
         label: "GitHub",
-        icon: "github",
+        icon: "git-branch",
       },
     ],
     sections: [
