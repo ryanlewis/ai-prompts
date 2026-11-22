@@ -23,7 +23,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
     "@parcel/transformer-sass": "2.16.4",
     "cheerio": "1.2.0",
-    "markdown-it-anchor": "10.0.0",
+    "markdown-it-anchor": "10.1.0",
     "markdown-it-footnote": "4.0.0",
     "markdown-it-task-checkbox": "1.0.6",
     "nanohtml": "1.10.0",
@@ -31,13 +31,13 @@
     "npm-run-all2": "9.0.4",
     "parcel": "2.16.4",
     "rimraf": "6.1.4",
-    "sass": "1.102.0"
+    "sass": "1.108.2"
   },
   "dependencies": {
     "@radix-ui/colors": "3.0.0",
-    "alpinejs": "3.15.12",
-    "lucide": "1.61.0",
-    "pagefind": "1.5.2",
+    "alpinejs": "3.17.5",
+    "lucide": "1.73.0",
+    "pagefind": "1.6.0",
     "prism-themes": "1.9.0"
   }
 }
